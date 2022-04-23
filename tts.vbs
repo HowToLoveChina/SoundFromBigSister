@@ -1,5 +1,5 @@
 set fs =createobject("scripting.filesystemobject")
-set ts=fs.opentextfile("c:/tts.txt",1,true)
+set ts=fs.opentextfile("tts.txt",1,true)
 dim words(10000)
 Randomize
 idx = 1
